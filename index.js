@@ -21,6 +21,7 @@ clickRamalan.addEventListener("click", ()=>{
     ramalan.innerHTML = `"${results}"`;
     ramalan.style.fontFamily = "'Permanent Marker', cursive";
     ramalan.style.fontSize = "24px";
+    ramalan.style.display = "block";
 
       //Menampilkan hasil Nama
     const nama = document.getElementById("nama").value;
@@ -36,6 +37,10 @@ clickRamalan.addEventListener("click", ()=>{
     tampilNama.style.textAlign = "center";
     tampilNama.style.paddingBottom = "40px";
     tampilNama.style.fontFamily = "'Permanent Marker', cursive";
+
+    AOS.init({
+      once: true,
+    });
 
   }
 

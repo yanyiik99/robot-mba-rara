@@ -162,3 +162,7 @@
 .inputNama-none {
   display: none !important;
 }
+
+#ramalan {
+  display: none;
+}
