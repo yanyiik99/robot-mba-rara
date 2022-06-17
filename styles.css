@@ -1,0 +1,164 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#main-section {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, #BBDDD3 0%, #839AA8 100%);
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.header .logo{
+  width: 15%;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+
+.header .title {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title h1 {
+  font-weight: 800 !important;
+  color: #1D1D1D;
+  font-size: 28px;
+}
+
+.title h1 span {
+  color: #5E3D94;
+}
+
+.header .noted {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.noted p .tebal {
+  font-weight: 800;
+}
+
+.noted p .red-warn {
+  color : #cf4526;
+}
+
+.main {
+  width: 100%;
+  min-height: 120px;
+  margin: 50px auto;
+  /* background-color: #5E3D94; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main #inputNama {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-nama {
+  display: block;
+  padding-bottom: 35px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.input-nama {
+  display: block;
+  width: 150%;
+  height: 50px;
+  border: 0px none ;
+  border-radius: 50px;
+  background-color: transparent;
+  border:  2px #5e3d949c solid;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.input-nama::placeholder {
+  color: gray;
+  padding-left: 20px;
+  transition: all 0.5s;
+}
+
+.input-nama:focus {
+  padding-left: 20px;
+  outline: 4px #5e3d94 solid;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+  transition: all 0.3s;
+}
+
+.input-nama:focus::placeholder {
+  color: transparent;
+  transition: all 1s;
+}
+
+
+.btn {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.btn button {
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1.3px;
+  display: block;
+  border-radius: 50px;
+  background-color: #7744CA;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn button:hover {
+  background-color: #cf4526;
+}
+
+
+
+
+/* Class menghilangkan form */
+.inputNama-none {
+  display: none !important;
+}
