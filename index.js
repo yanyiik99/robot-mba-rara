@@ -6,7 +6,7 @@ const clickRamalan = document.getElementById("clickRamalan");
 clickRamalan.addEventListener("click", ()=>{
 
   async function ramalan(){
-        
+    
     const response = await 
     fetch("https://api.adviceslip.com/advice", {
     method: "GET"
@@ -46,7 +46,6 @@ clickRamalan.addEventListener("click", ()=>{
 
   ramalan();
 
-  
 
 
 });
